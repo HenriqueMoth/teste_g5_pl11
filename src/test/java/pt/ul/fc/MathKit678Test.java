@@ -33,6 +33,6 @@ class MathKit678Test {
     @Test 
     void convertTempWorks() {
        assertEquals(68, MathKit678.convertTemp(20));
-       assertEquals(0, MathKit678.convertTemp(32));
+       assertEquals(32, MathKit678.convertTemp(0));
     }
 }
